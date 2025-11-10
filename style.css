@@ -1,0 +1,119 @@
+header {
+    background-color: rgb(255, 191, 54);
+    height: 50px;
+}
+
+.block {
+    height: 50px;
+    margin: 20px 20px 20px 10px;
+}
+
+.sitename {
+    margin-bottom: 10px;
+    font: 20px Arial;
+}
+
+nav {
+    display: flex;
+    width: 600px;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    width: 680px;
+    padding: 20px;
+}
+
+
+.right {
+    width: 320px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 30px auto;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+   background-color:rgb(255, 191, 54);
+}
+
+
+.sitename {
+    margin-bottom: 10px;
+    font: 20px Arial;
+}
+
+nav a {
+    padding: 10px;
+    color: blue;
+    text-decoration: none;
+    font: 15px Arial;
+}
+
+nav a:hover, nav a.active {
+    color: white;
+    text-decoration: underline;
+}
+
+main h1 {
+    font: 20px "Times New Roman";
+}
+
+main p {
+    margin: 10px 0;
+    text-align: justify;
+    font: 15px Arial;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 677px;
+}
+td, th {
+    border: 1px solid black;
+}
+
+th:nth-child(1){
+    background-color: rgb(230, 230, 146);
+}
+
+th:nth-child(2){
+    background-color: rgb(230, 230, 146);
+}
+
+th:nth-child(3){
+    background-color: rgb(230, 230, 146);
+}
+
+nav a {
+    margin-top: 7px;
+    margin-left: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+td:nth-child(1){
+text-align: center;
+}
+
+td:nth-child(2){
+text-align: center;
+}
+
+td:nth-child(3){
+text-align: center;
+}
+
+aside p {
+    text-align: justify;
+}
